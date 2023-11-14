@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
+.pic-text img {
+    position: relative;
+    top: 4px;
+  }
+  
+  .pic-text h1 {
+    font-size: 25px;
+  }
+  
+  .pell h1 {
+    padding-top: 30px;
+  }
+  
+  .btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .fr22 img {
+    display: inline-block;
+    /* Ensure the border-radius works correctly */
+    outline: 4px solid #a7a6a6;
+    margin-top: 50px;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .section7{
+     background-color: rgba(241, 227, 230, 0.795);
+     margin-top: 50px;
+  }
+  
+  .text3 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 40px;
+  }
+  
+  .text3 h2 {
+    padding-top: 14px;
+  }
+  
+  .grid-2{
+     display: flex;
+     justify-content: space-between;
+     gap: 60px;
+  }
+  
+  .grid-box{
+     background-color: white;
+    height: 55vh;
+    padding: 40px 80px;
+    margin: 10px;
+    box-shadow: 1px 1px 15px 5px rgb(0, 0, 0, 0.2);
+  }
+  
+  .grid-box h1{
+     transform: translateX(-30px);
+  }
+  
+  .grid-list li{
+     list-style: none;
+     padding-top: 30px;
+  }
+  
+  .grid-list a{
+     text-decoration: none;
+     color: black;
+  }
+  
+  .grid-list{
+     transform: translateX(-70px);
+  }
+  
+  .grid-list li a:hover{
+     color: rgb(153, 79, 206);
+     cursor: pointer;
+     border-bottom: 2px solid; 
+  }
+  
+  .grid-img{
+     position: relative;
+     bottom: 30px;
+  
+  }
+  
+  
+
+.gri-tex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+ }
+ 
+ .digits {
+    display: flex;
+    gap: 9px;
+  }
+  
+  .digits p {
+    padding-top: 12px;
+    color:  rgb(153, 79, 206);
+  }
+ 
+  .violet-cont{
+    width: 97%;
+    height: 3vh;
+    border-radius: 2rem;
+    background-color:  whitesmoke;
+    /* margin-bottom: 50px; */
+  }
+ 
+  .violet-color {
+    width: 40%;
+    height: 3vh;
+    border-radius: 2rem;
+    background-color:  rgb(233, 66, 245);
+  }
+ 
+  .btn1{
+    margin-top: 50px;
+    width: 50%;
+    height: 7vh;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: rgb(233, 66, 245);
+    color: white;
+  }
+ 
+  .f-box{
+    /* background: url(media/flat-lay-table-workplace-closeup-man-hands-home-working-typing-laptop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 30%;
+    height: 70vh;
+    box-shadow: 1px 1px 30px rgba(48, 46, 46, 0.5);
+  }
+ 
+  .img-box{
+    background-color: #a7a6a6;
+    width: 100%;
+    height: 45vh;
+  }
+ 
+  .texta{
+    padding-left: 100px;
+    padding-top: 70px;
+  }
+ 
+  #box-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+  }
+ 
+  .footer1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 90px 50px 90px;
+    margin-top: 70px;
+    background: rgb(14, 14, 168);
+  }
+
+  #icon-img{
+    transform: translateY(-60px);
+
+  }
+ 
+  .srch-btn{
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    padding-right: 70px;
+    
+  }
+ 
+  .srch-b input{
+   width: 200%;
+   height: 6vh;
+  }
+ 
+  .text4{
+   color: #fff;
+  }
+ 
+  .text4 h1{
+   font-size: 50px;
+  }
+ 
+  .footer1 #icon-img {
+   position: relative;
+   bottom: 90px;
+   left: 250px;
+  }
+ 
+  .BTN button{
+   width: 230%;
+   height: 6vh;
+   border-radius: 2rem;
+   border-style: none;
+   background-color: gold;
+   color: #fff;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 40px;
+  }
+
+  .f-1 li{
+    list-style: none;
+    padding-top: 15px;
+  }
+
+  .f-1 a{
+    text-decoration: none;
+    color: rgb(43, 43, 136);
+  }
+
+  .f-1 b{
+    color: black;
+  }
+
+  .f-end{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+  }
+
+  .f2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .f3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+ 
+ 
+ @keyframes float {
+   0% {
+     transform: translateY(0px);
+   }
+ 
+   50% {
+     transform: translateY(-50px);
+   }
+ 
+   100% {
+     transform: translateY(0px);
+   }
+ }
+ 
+  /* @media (max-width:600px){
+ 
+   .navbar{
+      width: 50%;
+   }
+   .navbar h1{
+      width: 40%;
+   }
+ 
+   .list-icon li{
+      visibility: hidden;
+   }
+   
+   
+ } */
